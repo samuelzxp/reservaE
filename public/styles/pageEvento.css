@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mandali&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mandali&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika:wght@300..700&display=swap');
+
+body {
+    background-color: #0d1f23;
+    height: 150vh;
+}
+
+.navbar-brand {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #2E4ACC;
+}
+
+.offcanvas-end {
+    background-color: #2E4ACC;
+}
+
+.container-table {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-table table {
+    width: 1000px;
+}
+
+.carousel {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.containerEventos {
+    min-width: 100%;
+    color: azure;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+}
+
+.infoEventos {
+    display: grid;
+    min-width: 100%;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.containerDescripition {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+
+.card {
+    margin-left:425px;
+    width: 600px;
+    height: auto;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+.card-title {
+    background-color: #5a636a;
+}
+
+.boxIngresso {
+    width: 100%;
+    height: 40px;
+    background-color: #5a636a;
+    text-align: center;
+    color: azure;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cardCompra {
+    width: 18rem;
+    margin: -5px auto;
+}
+
+.btn-compra {
+    font-family: "Poppins", sans-serif;
+    background-color: #009EE3;
+    color: white;
+}
+
+.btn-compra:hover {
+    background-color: #009fe3ce;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.containerQuant {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 10px;
+}
